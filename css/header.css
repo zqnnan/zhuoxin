@@ -1,0 +1,123 @@
+#header{
+    width: 100%;
+    height: 120px;
+    background: #221236 url(../images/header_bg.jpg) top center;
+    position: relative;
+    top: 0px;
+}
+.header {
+    height: 120px;
+    width: 1100px;
+    /* background: darkblue; */
+    margin: 0 auto;
+}
+.header-logo{
+    float: left;
+}
+.nav{
+    color: aliceblue;
+    width: 630px;
+    margin: 0px auto;
+    height: 25px;
+    line-height: 25px;
+    float: right;
+    margin-top: 45px;
+    text-align: left;     
+    /* background: darkcyan; */
+    font-size:16px;
+    margin-left: -10px;
+}
+.nav-c{
+    text-align: center
+}
+.nav ul li{
+    /* list-style: none; */
+    float: left;
+    height: 25px;
+    width: 100px;
+    position: relative;
+    margin-left: 5px;
+    /* background: darkgoldenrod; */
+}
+.xjiantou{
+    margin-right: 20px;
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 25px;
+    right: -11px;
+    top: 0;
+    background: url(../images/nav_xiajiantou.png) no-repeat;
+    z-index: 999;
+}
+.dian{
+    display: none;
+    position: absolute;
+    bottom: -10px;
+    left: 45%;
+    height: 5px;
+    width: 5px;
+    background: url(../images/nav_now_bg.png) no-repeat bottom center;
+}
+.nav ul li:hover .dian{
+    display: block;
+}
+.nav ul li:hover .ul{
+    display: block;
+    
+}
+
+.nav ul li .ul li:hover{
+    background: #3498db;
+    /*margin-left: 15px;
+    */color: darkblue;
+    color: #fff;
+    padding-left: 40px;
+    transition: padding-left 0.4s ease 0s;
+}
+.nav ul li .ul li:hover .xiao{
+    opacity: 1;
+    transition: all 1s .2s;
+    -webkit-transition: all 1s .2s;
+    -moz-transition: all 1s .2s;
+    -ms-transition: all 1s .2s;
+    -o-transition: all 1s .2s;
+}
+.xiao{
+    opacity: 0;
+    position: absolute;
+   left: 150px;
+    top: 15px;
+    height: 10px;
+    width: 10px;
+    background: #3498db url(../images/nav_li_bg.png) no-repeat ;
+}
+.ul{
+    
+    display: none;
+    height: 240px;
+    font-size: 15px;
+    position: absolute;
+    left: -24px;
+    /* top: 35px; */
+    width: 180px;
+    background: #36264a;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+    overflow: hidden;
+    
+}
+.ul1{
+    height: 120px;
+}
+.nav ul li .ul li{
+    text-align: left;
+    margin-left: 0;
+    padding-left: 20px;
+    /* background:darkorange; */
+    /* margin-top: 15px; */
+    width: 89%;
+    height: 40px;
+    line-height: 40px;
+}

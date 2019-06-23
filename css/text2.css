@@ -1,0 +1,112 @@
+body{
+    font-size: 15px;
+    background: #f1f2f6;
+}
+.content{
+    width: 780px;
+    margin: 0 auto;
+    min-height: 700px;
+    background: #fff;
+    padding: 70px 160px 220px 160px;
+}
+
+.cp {
+    width: 780px;
+    margin: -50px auto;
+}
+
+.cp>img {
+    margin: 0 auto;
+    display: block;
+}
+
+.cp>h1 {
+    text-align: center;
+    font-size: 54px;
+    /* color: #311759; */
+    margin-top: 60px;
+}
+
+.cp>h2 {
+    text-align: center;
+    font-size: 54px;
+    /* color: #311759; */
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 6px;
+}
+.content .list {
+    color: #311759;
+    font-size: 30px;
+    background: url(../images/pen_line_long.png) no-repeat 0 58px;
+    height: 60px;
+    position: relative;
+}
+
+.content .list span {
+    width: 61px;
+    height: 58px;
+    background: url(../images/pen_list.png) no-repeat;
+    position: absolute;
+    right: 0px;
+    top: 7px;
+    cursor: pointer;
+}
+.content p{
+    color: #6b6a6f;
+    padding-top: 15px;
+    margin-bottom: 60px;
+    font-size:17px;
+    margin-top: 30px;
+}
+.neir{
+    margin-top: 100px;
+}
+.zi .ti{
+    display: inline-block;
+    font-size: 22px;
+    margin-bottom: 23px;
+    
+}
+.zi .duan{
+    display: inline-block;
+    font-size: 22px;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+.pper{
+    margin-left: -100px;
+}
+.like{
+    margin-top: 80px;
+    margin-left: 350px;
+    width: 73px;
+    height: 73px;
+    /* overflow: hidden; */
+    position: relative;
+}
+.like-btn{
+    width: 73px;
+    height: 73px;
+    float: left;
+    background: url(../images/article_iflike.png) no-repeat;
+    cursor: pointer;
+}
+.like-moree{
+    display: none;
+    position: absolute;
+    left:-20px;
+    width: 135px;
+    height: 35px;
+    margin-left: 85px;
+    margin-top: 19px;
+    background: url(../images/article_iflike_nomberbg.png) no-repeat;
+    padding-top: 8px;
+    color: #fff;
+    text-align: center;
+    padding-left: 5px;
+}
+.like:hover .like-more{  
+    width: 213px;
+    transition: all 0.5s ease 0s;
+}

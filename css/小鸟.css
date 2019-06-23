@@ -1,0 +1,509 @@
+.welcome{
+    width: 100%;
+    min-width: 1100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 919px;
+    background-color: #299ad6;
+    z-index: 999;
+    padding-top: 50px;
+    color: #fff;
+    /* display: none; */
+}
+.welcome_content{
+    top: 58%;
+    font-size: 20px;
+    height: 560px;
+    position: absolute;
+    margin-top: -280px;
+    width: 100%;
+    text-align: center;
+    /* display: none; */
+}
+.welcome_box{
+    position: relative;
+    top: -35px;
+    display: none;
+}
+.welcome_title{
+    font-size: 44px;
+    line-height: 48px;
+}
+.en_title{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+}
+.welcome_box2{
+    padding-top: 15px;
+    display: none
+}
+.welcome_box2 span{
+    font-size: 48px;
+}
+.welcome_p{
+    display: none
+}
+
+.wrap {
+    background: #221236 url(../images/aboutxiaoniao/beader_bg.jpg) top center;
+    width: 100%;
+    position: fixed;
+    z-index: 500;
+
+}
+
+.header {
+    height: 54px;
+    width: 1100px;
+    margin: auto;
+
+}
+
+.logo {
+    float: left;
+}
+
+.nav-rap {
+    width: 930px;
+    margin: 0px auto;
+    height: 25px;
+    line-height: 25px;
+    float: right;
+    padding-top: 11px;
+    text-align: right;
+}
+
+.nav-pic {
+    float: left;
+    position: relative;
+    margin-left: 45px;
+
+}
+
+.nav-pic h1 {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 15px;
+    position: relative;
+    cursor: pointer;
+    height: 30px;
+    color: #aeabb4;
+}
+
+.main_wrap {
+    width: 100%;
+    min-width: 1100px;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.one {
+    width: 100%;
+    min-width: 1100px;
+    background-color: #221236;
+    color: #fff;
+    height: 980px;
+    position: relative;
+    overflow: hidden;
+}
+.one-c {
+    height: 560px;
+    position: absolute;
+    top: 40%;
+    margin-top: -280px;
+    width: 100%;
+    text-align: center;
+    /* background: darkblue; */
+}
+.text {
+    position: relative;
+    top: -35px;
+}
+.tit {
+    font-size: 44px;
+    line-height: 48px;
+}
+.yw {
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+.ems {
+    padding-top: 15px;
+}
+.ems span {
+    font-size: 48px;
+}
+.zuo-e {
+    position: relative;
+    left: -8px;
+    top: -30px;
+}
+.you-e {
+    position: relative;
+    right: -8px;
+    top: 17px;
+}
+/*--------- 2------------- */
+.two {
+    /* overflow: hidden; */
+    width: 100%;
+    min-width: 1100px;
+    position: relative;
+    height: 1000px;
+    /* background: darkblue; */
+
+}
+.box {
+    max-width: 1920px;
+    height: 800px;
+    /* overflow: hidden; */
+    position: relative;
+    /* background: darkcyan; */
+    margin: auto;
+}
+.gaishu {
+    height: 500px;
+    width: 6000px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* background: pink; */
+}
+.xiao-box {
+    height: 100px;
+    max-width: 1920px;
+    /* background: orange; */
+    position: relative;
+    margin-left: 20px;
+}
+
+.g-con {
+    height: 660px;
+    margin: 100px auto;
+    width: 100%;
+    /* background: darkgray; */
+}
+
+.gaishu-one {
+    text-align: center;
+    font-size: 54px;
+    color: #311759;
+    font-weight: bold;
+}
+.ems1 {
+    font-size: 18px;
+    color: #6b6a6f;
+    width: 630px;
+    line-height: 30px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+}
+.ems1 span {
+    font-size: 18px;
+    color: #6b6a6f;
+    width: 630px;
+    line-height: 30px;
+}
+.app {
+    width: 910px;
+    margin: 50px auto;
+}
+.app img {
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.xiaotwo {
+    height: 660px;
+    position: relative;
+    ;
+    top: 12%;
+    left: 1920px;
+    width: 100%;
+    /* background: darkgray; */
+}
+.zhong {
+    width: 700px;
+    left: 50%;
+    margin-left: -350px;
+    height: 500px;
+    /* background: darkgreen; */
+    margin: auto;
+}
+.zhonger {
+    display: inline-block;
+    margin-left: 95px;
+}
+.blocc {
+    margin-top: 50px;
+    overflow: hidden;
+    color: #6b6a6f;
+    text-align: left;
+}
+.blocc img {
+    margin-left: 60px;
+}
+.inner {
+    width: 520px;
+    margin-left: 180px;
+    position: relative;
+    top: -70px;
+}
+.inner h1 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.inner h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+.xiaothere {
+    height: 660px;
+    position: absolute;
+    top: 12%;
+    left: 3804px;
+    width: 100%;
+    /* background: darkgray; */
+}
+.xue {
+    position: absolute;
+    top: 10px;
+    left: 41%;
+}
+.xue span {
+    color: #221236;
+    font-size: 36px;
+}
+.xiaothere p {
+    width: 730px;
+    margin: 145px auto 0;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: left;
+    text-indent: 2em;
+}
+.xia img {
+    display: inline-block;
+    margin-top: 87px;
+    position: absolute;
+    left: 48%;
+}
+.gaishu_goleft {
+    width: 58px;
+    height: 58px;
+    background: url(../images/aboutxiaoniao/goleft.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -29px;
+    cursor: pointer;
+    left: 60px;
+}
+.gaishu_goright {
+    width: 58px;
+    height: 58px;
+    background: url(../images/aboutxiaoniao/goright.png)-58px 0 no-repeat;
+    right: 60px;
+    position: absolute;
+    top: 50%;
+    margin-top: -29px;
+    cursor: pointer;
+}
+.gaishu_goleft:hover {
+    background-position: -58px 0;
+    transition: all 0.5s ease 0s;
+}
+.gaishu_goright:hover {
+    background-position: 0 0;
+    transition: all 0.5s ease 0s;
+}
+/* 3333333333333333333333 */
+.there {
+    /* overflow: hidden; */
+    width: 100%;
+    min-width: 1100px;
+    position: relative;
+    height: 1000px;
+    /* top:280px; */
+    color: #fff;
+    background: #221236;
+    overflow: hidden;
+}
+.th-con {
+    width: 970px;
+    height: 560px;
+    margin: 190px auto;
+    /* background: darkkhaki; */
+}
+.th-con h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.content-th {
+    height: 317px;
+    width: 850px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* background: darkcyan; */
+}
+.nomer {
+    width: 74px;
+    height: 74px;
+    background: url(../images/aboutxiaoniao/jiazhi_quanquan.png) no-repeat;
+    line-height: 74px;
+    text-align: center;
+    margin-right: 27px;
+    float: left;
+}
+.bao {
+    width: 390px;
+    height: 74px;
+    /* background: darkmagenta; */
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.content-th p {
+    float: left;
+    width: 280px;
+    font-size: 18px;
+    margin-top: 13px;
+}
+/* .. */
+
+.four {
+    background: #f1f2f6;
+    overflow: hidden;
+    width: 100%;
+    min-width: 1100px;
+    position: relative;
+    height: 1000px;
+}
+.xiaoniaoyun {
+    background: #f1f2f6;
+}
+.yun_content {
+    width: 910px;
+    height: 560px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -280px 0 0 -455px;
+}
+.yun_content > h1 {
+    font-size: 54px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #311759;
+}
+.yun_slidebox {
+    height: 420px;
+    width: 910px;
+    overflow: hidden;
+    position: relative;
+}
+.yun_slider {
+    width: 1820px;
+    height: 420px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.yun_slider > div {
+    width: 910px;
+    float: left;
+    line-height: 36px;
+    background: url(../images/aboutxiaoniao/xuxian_bg.png);
+    font-size: 16px;
+    font-family: KaiTi_GB2312;
+    color: #535355;
+}
+.yun_slider p {
+    text-indent: 2em;
+}
+.xiaoniaoyun .btn_box {
+    width: 204px;
+    height: 8px;
+    margin: 0 auto;
+}
+.xiaoniaoyun .btn_box > div {
+    float: left;
+    margin: 0 12px;
+    width: 78px;
+    height: 8px;
+    border-radius: 4px;
+    background: url(../images/aboutxiaoniao/xiaoniaoyun_btn.png) no-repeat 0 -8px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.xiaoniaoyun .btn_box .yunmove_btn {
+    position: absolute;
+    top: 0;
+    left: -78px;
+    width: 78px;
+    height: 8px;
+    background: url(../images/aboutxiaoniao/xiaoniaoyun_btn.png) no-repeat 0 0px;
+    transition: all 0.5s ease 0s;
+}
+.xiaoniaoyun .btn_box .yunmove_btn.now {
+    cursor: default;
+    transition: all 0.5s ease 0s;
+}
+.five {
+    /* background: #f1f2f6; */
+    overflow: hidden;
+    width: 100%;
+    min-width: 1100px;
+    position: relative;
+    height: 1000px;
+}
+.five-con {
+    margin: 190px auto;
+    /* background: darkkhaki; */
+    width: 910px;
+    height: 540px;
+}
+.five-con img {
+    margin-left: 145px;
+    margin-left: 2px;
+}
+.conta h1 {
+    line-height: 60px;
+    height: 60px;
+    width: 380px;
+    background: url(../images/aboutxiaoniao/contacts_line.png) no-repeat bottom left;
+    color: #191919;
+    margin-bottom: 14px;
+    font-size: 31px;
+}
+.conta p {
+    line-height: 32px;
+    color: #191919;
+    font-size: 18px;
+}
+.con-on {
+    height: 315px;
+    /* background: darkblue; */
+}
+.con-on img {
+    display: inline-block;
+    height: 317px;
+    width: 317px;
+}
+.conta {
+    /* background: darkgreen; */
+    width: 500px;
+    margin-left: 410px;
+}
+.mvv{
+    /* width: 100%;
+    min-width: 1100px;
+    position: relative;
+    height: 1100px; */
+    height:100vh;
+}

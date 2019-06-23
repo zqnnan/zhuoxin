@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/header.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="header">
+            <div class="header-logo">
+                <img src="../images/logo.png" alt="">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li class="nav-c list">
+                        <h1>首页</h1>
+                        <div class="dian"> </div>
+                    </li>
+                    <li class="list">
+                        <h1>小鸟掌学</h1>
+                        <span class="xjiantou"></span>
+                        <div class="dian"> </div>
+                        <ul class="ul">
+                            <li id="zx" >小鸟掌学主页
+                                <div class="xiao" ></div>
+                            </li>
+                            <li zqn=1 class="suoy1 san" onclick="window.open('../html/小鸟掌学.html#twoo')">小鸟掌学概述
+                                <div class="xiao"></div>
+                            </li>
+                            <li zqn=2 class="suoy2 san ">对企业的价值
+                                <div class="xiao"></div>
+                            </li>
+                            <li zqn=3 class="suoy3 san ">小鸟掌云
+                                <div class="xiao"></div>
+                            </li>
+                            <li >微课联盟
+                                <div class="xiao"></div>
+                            </li>
+                            <li zqn=4 class="suoy4 san ">App下载
+                                <div class="xiao"></div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-c list">
+                        <h1 class="dt">小鸟动态</h1>
+                        <div class="dian"> </div>
+
+                    </li>
+                    <li class="list">
+                        <h1>企业文化</h1>
+                        <span class="xjiantou"></span>
+                        <div class="dian"> </div>
+                        <ul class="ul ul1">
+                               
+                                <li>公司理念
+                                    <div class="xiao"></div>
+                                </li>
+                                <li>公司文化
+                                    <div class="xiao"></div>
+                                </li>
+                                <li>公司氛围
+                                    <div class="xiao"></div>
+                                </li>
+                            </ul>
+                    </li>
+                    <li class="list">
+                        <h1>人力资源</h1>
+                        <span class="xjiantou"></span>
+                        <div class="dian"> </div>
+                        <ul class="ul ul1">
+                               
+                                <li>人才理念
+                                    <div class="xiao"></div>
+                                </li>
+                                <li>团队介绍
+                                    <div class="xiao"></div>
+                                </li>
+                                <li>招聘信息
+                                    <div class="xiao"></div>
+                                </li>
+                            </ul>
+                    </li>
+                    <li class="nav-c list">
+                        <h1>联系我们</h1>
+                        <div class="dian"> </div>
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <script src="../js/jquery.js"></script>
+    <script>
+ 
+        $('#zx').click(function(){
+            console.log(1)
+        location='../html/小鸟掌学.html'
+
+        })
+
+        $('.dt').click(function(){
+            console.log(1)
+        location='../html/text1.html'
+
+        })
+
+
+
+        // 跳转对应位置
+        $('.san').click(function(){
+            console.log(1)
+            var idd=$(this).attr('zqn')
+            window.open("../html/小鸟掌学.html#new="+idd)
+            
+        })
+
+
+
+    </script>
+</body>
+
+</html>
